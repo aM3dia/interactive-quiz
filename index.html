@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+</head>
+    <style>
+        body {
+            text-align: center;
+            border-style: solid;
+            border-width: 20px;
+            border-color: rgb(0, 140, 255);
+        }
+        button {
+            margin: 15px;
+        }
+    </style>
+<body>
+    <h1>Welcome to the Quiz</h1>
+    <p>Test your knowledge about HTML!</p>
+    <form>
+        <!--Name-->
+        <label for="fname">First name</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <!--Question 1-->
+        <h2>1. What does HTML stand for?</h2>
+            <label><input type="radio" name="q1" value="a" >A) Hyperlinks Text Maketing Language</label><br>
+            <label><input type="radio" name="q1" value="b" >B) HyperText Marking Language</label><br>
+            <label><input type="radio" name="q1" value="c" >C) HyperText Markup Language</label><br>
+            <label><input type="radio" name="q1" value="d" >D) Hyperlinks Text Markup Language</label><br>
+        <br>
+        <h2>2. What is the correct way to add an image?</h2>
+            <label><input type="radio" name="q2" value="a" >A) Using src and alt attributes</label><br>
+            <label><input type="radio" name="q2" value="b" >B) Using href and alt attributes</label><br>
+            <label><input type="radio" name="q2" value="c" >C) Using link and alt attributes</label><br>
+            <label><input type="radio" name="q2" value="d" >D) Using the image URL between the tags</label><br>
+        <br>
+        <h2>3. How do you create an ordered list?</h2>
+            <label><input type="radio" name="q3" value="a" >A) Unordered list tag</label><br>
+            <label><input type="radio" name="q3" value="b" >B) Ordered list tag</label><br>
+            <label><input type="radio" name="q3" value="c" >C) List item tag</label><br>
+            <label><input type="radio" name="q3" value="d" >D) List tag</label><br>
+        <br>
+        <h2>4. Which attribute is used to define inline styles?</h2>
+            <label><input type="radio" name="q4" value="a" >A) Font</label><br>
+            <label><input type="radio" name="q4" value="b" >B) Style</label><br>
+            <label><input type="radio" name="q4" value="c" >C) Styles</label><br>
+            <label><input type="radio" name="q4" value="d" >D) Class</label><br>
+        <br>
+        <h2>5. How do you create a comment?</h2>
+            <label><input type="radio" name="q5" value="a" >A) Using angle brackets and exclamation marks</label><br>
+            <label><input type="radio" name="q5" value="b" >B) Using slashes</label><br>
+            <label><input type="radio" name="q5" value="c" >C) Using forward slashes and asterisks</label><br>
+            <label><input type="radio" name="q5" value="d" >D) Using angle brackets and slashes</label><br>
+        <br>
+        <!--Submit Button-->
+        <button type="submit">Submit Quiz</button>
+    </form>
+</body>
+</html>
